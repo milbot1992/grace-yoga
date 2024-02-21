@@ -1,0 +1,125 @@
+.timetable {
+  background-color: #84123F;
+  padding: 20px;
+}
+
+.timetable-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 150px
+}
+
+.timetable-header {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.day-container {
+  margin-bottom: 40px;
+  width: 30%
+}
+
+.day-header{
+  padding-bottom: 10px
+}
+
+.day-header {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.class-card {
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.class-name-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4); 
+}
+
+.class-content {
+  position: relative;
+}
+
+.class-name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px
+}
+
+.class-time {
+  margin: 5px 0;
+}
+
+.class-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0); 
+  transition: background-color 0.2s ease; 
+}
+
+.class-card:hover::after {
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.class-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.class-image {
+  width: 100%;
+  height: auto;
+}
+
+.class-info {
+  padding: 15px;
+}
+
+.class-time {
+  margin-top: -5px
+}
+
+.pretty-line-break{
+  width: 300%;
+  margin-top: 50px;
+  margin-bottom: -20px;
+  border: none;
+  height: 2px;
+  background-color: #fff; 
+  opacity: 0.5; 
+}
+
+@media only screen and (max-width: 768px) {
+  .timetable-section {
+    margin-left: 10px
+  }
+
+  .day-container {
+    width: 95%
+  }
+
+  .pretty-line-break{
+    width: 100%;
+  }
+}

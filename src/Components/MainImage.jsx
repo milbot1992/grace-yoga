@@ -1,4 +1,5 @@
 import '../Styling/MainImage.css'
+import Header from '../assets/GraceYoga.png'
 
 export default function MainImage() {
     const handleLinkClick = (id) => {
@@ -15,9 +16,9 @@ export default function MainImage() {
 
     return (
         <>
-        <h1 className='main-image-title'>Saorsa Yoga</h1>
+        <img src={Header} className='main-header'></img>
         <p className='main-image-subtitle'>Manchester based Yoga Teacher specialising in breathwork and energy movement</p>
-        <p className='main-image-cal-button' onClick={() => handleLinkClick('calendar')}>See Calendar</p>
+        <p className='main-image-cal-button' onClick={() => handleLinkClick('timetable')}>See Timetable</p>
       </>
     )
 }

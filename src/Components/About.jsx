@@ -1,49 +1,43 @@
 import React, { useRef, useState } from 'react';
-import Lottie from 'react-lottie';
+import GraceSmile from '../assets/IMG_3709.jpeg'
 import { useInView } from 'react-intersection-observer';
 import '../Styling/About.css'
-import AirIcon from '@mui/icons-material/Air';
-import WbSunnyIcon from '@mui/icons-material/WbSunny';
-import SpaIcon from '@mui/icons-material/Spa';
-import PublicIcon from '@mui/icons-material/Public';
 import animationData from '../assets/YogaPose.json'
 
 export default function About() {
-    const [isInView, setIsInView] = useState(false);
-    const [ref, inView] = useInView({
-        triggerOnce: true,
-    });
 
-    const lottieOptions = {
-        loop: true,
-        autoplay: isInView,
-        animationData: animationData,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice',
-        },
-    };
 
     return (
         <>
-        <h2 className='about-header'>Saorsa yoga provides a friendly and relaxed space for anyone to experience the transformative power of yoga.</h2>
+        <h2 className='about-header'>Yoga with Grace provides a friendly and relaxed space for anyone to experience the transformative power of yoga.</h2>
         <div className='header-grid'>
             <div></div>
-            <div ref={ref} className='header-image'>
-                <Lottie options={lottieOptions} />
+            <div className='image-container'>
+                <img className='grace-smile' src={GraceSmile}></img>
             </div>
             <div>
-                <div className='opening-grid'>
-                    <AirIcon className='icon' />
-                    <p className='opening-text'>Movement Medicine</p>
-                    <WbSunnyIcon className='icon' />
-                    <p className='opening-text'>Awakening Yoga Teacher</p>
-                    <SpaIcon className='icon' />
-                    <p className='opening-text'>Mindfulness Facilitator</p>
-                    <PublicIcon className='icon' />
-                    <p className='opening-text'> Online + in-person classes</p>
+                <div className='about-section'>
+                    <h1>About Grace</h1>
+                    <p className='about-me-text'>Hi, I'm Grace - a Movement Medicine and Awakening Yoga Teacher, as well as a Mindfulness Facilitator. I have been teaching yoga for 5 years and provide high quality yoga practices to leave you feeling at ease.</p>
+                    <p className='about-me-text'>I offer both online and in-person classes to help you on your journey to wellness and mindfulness.</p>
                 </div>
             </div>
         </div>
         </>
     );
 }
+
+
+{/* <AirIcon className='icon' />
+<p className='opening-text'>Movement Medicine</p>
+<WbSunnyIcon className='icon' />
+<p className='opening-text'>Awakening Yoga Teacher</p>
+<SpaIcon className='icon' />
+<p className='opening-text'>Mindfulness Facilitator</p>
+<PublicIcon className='icon' />
+<p className='opening-text'> Online + in-person classes</p> */}
+
+//import AirIcon from '@mui/icons-material/Air';
+//import WbSunnyIcon from '@mui/icons-material/WbSunny';
+//import SpaIcon from '@mui/icons-material/Spa';
+//import PublicIcon from '@mui/icons-material/Public';

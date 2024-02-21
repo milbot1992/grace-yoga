@@ -46,7 +46,7 @@ export default function Nav2() {
                       <li className='menu-item' onClick={() => handleLinkClick('about')}>
                       ABOUT
                       </li>
-                      <li className='menu-item' onClick={() => handleLinkClick('calendar')}>
+                      <li className='menu-item' onClick={() => handleLinkClick('timetable')}>
                       CALENDAR
                       </li>
                       <li className='menu-item' onClick={() => handleLinkClick('quotes')}>
@@ -63,7 +63,7 @@ export default function Nav2() {
                   <li className='nav-title' onClick={() => handleLinkClick('about')}>
                       About
                   </li>
-                  <li className='nav-title' onClick={() => handleLinkClick('calendar')}>
+                  <li className='nav-title' onClick={() => handleLinkClick('timetable')}>
                       Calendar
                   </li>
                   <li className='nav-title' onClick={() => handleLinkClick('quotes')}>

@@ -55,9 +55,10 @@
     width: 100%;
     background-attachment: fixed;
   
-    background-image: url(https://i.ibb.co/kh09sg9/IMG-3704-1.jpg);
+    background-image: url(https://i.postimg.cc/kg6MvwKS/IMG-3704.jpg);
     background-position: center;
     background-size: cover;
+    background-position-y: 60%;
     color: var(--color);
     row-gap: 0.5rem;
     text-align: center;
@@ -94,26 +95,25 @@
     }
 
     .parallax-container {
-      height: 65vh;
+      height: 85vh;
       margin-top: 30px;
-      background-size: 768px
+      background-size: 768px auto;
+      background-position-y: 90%;
     }
   }
 
   @media only screen and (max-width: 550px) {
     .parallax-container {
-      background-size: 550px 
+      background-size: 550px auto;
+      background-position-y: 0%;
+      height: 65vh;
     }
   }
 
   @media only screen and (max-width: 500px) {
     .parallax-container {
-      background-size: 500px 
-    }
-  }
-
-  @media only screen and (max-width: 450px) {
-    .parallax-container {
-      background-size: 500px 
+      height: 65vh;
+      background-size: 600px auto;
+      background-position-y: -5%;
     }
   }

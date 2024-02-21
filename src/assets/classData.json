@@ -1,0 +1,31 @@
+[
+    {
+      "class_id": 1,
+      "name": "Sunrise Awakening Yoga",
+      "time": "7am-8am",
+      "level": "This is a gentle class suitable for Beginners (Level 0) All Levels",
+      "description1": "In this easy-going but energizing practise, we will work out the kinks, wake up your breathe and find some mindful movement.",
+      "description2": "We will explore some gentle but purposeful sequences, build a little heat and release into some feel-good stretches.",
+      "description3": "This class will end with a meditation to help you arrive fully present at the beginning of your day.",
+      "price": "£9 (£6.00 concessions)",
+      "img_url": "https://i.postimg.cc/wBbVZTRG/Sunrise-Slim.jpg",
+      "day": "Tuesday",
+      "location_short": "The Yoga Rooms, Chorlton",
+      "location": "The Yoga Rooms, 1, 483 Barlow Moor Rd, Chorlton, M21 8AG"
+    },
+    {
+      "class_id": 2,
+      "name": "Evening Flow Yoga",
+      "time": "7:30pm-8:45pm",
+      "level": "This is a physical class suitable for Intermediate (Level 2)",
+      "description1": "In this flow practice, we will work out the kinks, wake up your breathe and find some mindful movement.",
+      "description2": "We will explore some flow sequences, getting the heartbeat up followed by a wind down at the end.",
+      "description3": "Yoga Flow becomes a moving meditation that creates strength, freedom and fluidity in the body and mind.",
+      "price": "£10",
+      "img_url": "https://i.postimg.cc/yxdFnhW3/Screenshot-2024-02-21-at-11-24-40.png",
+      "day": "Thursday",
+      "location_short": "Space at the Mill, Castlefield",
+      "location": "Space at the Mill, 2nd floor, Wellington Mill, Duke St, Manchester M3 4NF"
+    }
+  ]
+  
