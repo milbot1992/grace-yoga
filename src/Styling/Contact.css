@@ -1,0 +1,32 @@
+.contact-section{
+    background-color: #84123F;
+}
+
+.email-grid{
+    display: grid;
+    grid-template-columns: 0.1fr 4fr;
+    align-items: center
+}
+
+.email-text1{
+    color: #ffffff;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px
+}
+
+.email-text2{
+    color: #ffffff;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+
+.contact-header{
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px
+}

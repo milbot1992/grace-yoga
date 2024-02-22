@@ -1,0 +1,54 @@
+.quotes-section{
+    width: 80%;
+    margin: 0 auto
+}
+
+.quotes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px
+}
+
+.quote-card {
+    width: calc(33.33% - 20px);
+    padding: 30px;
+    border: 1px solid #84123F; 
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.quote-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+}
+
+@media only screen and (max-width: 768px) {
+    .quotes-section {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15px;
+        overflow-x: auto; 
+    }
+
+    .quotes-container {
+        display: flex;
+        flex-direction: row; 
+        padding-bottom: 20px; 
+    }
+
+    .quote-card {
+        flex: 0 0 auto;
+        width: 65%; 
+        margin-right: 20px; 
+        scroll-snap-align: start; 
+    }
+    
+}

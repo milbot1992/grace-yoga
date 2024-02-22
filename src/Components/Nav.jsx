@@ -47,10 +47,10 @@ export default function Nav() {
                       ABOUT
                       </li>
                       <li className='menu-item' onClick={() => handleLinkClick('timetable')}>
-                      CALENDAR
+                      TIMETABLE
                       </li>
                       <li className='menu-item' onClick={() => handleLinkClick('quotes')}>
-                      QUOTES
+                      TESTIMONIALS
                       </li>
                       <li className='menu-item' onClick={() => handleLinkClick('contact')}>
                       CONTACT
@@ -58,16 +58,16 @@ export default function Nav() {
                   </div>
                   )}
               <li>
-                  <img src={GraceFulLogo} className='nav-logo' onClick={() => handleLinkClick('background')}></img>
+                  <img src={GraceFulLogo} className='nav-logo' onClick={() => handleLinkClick('nav')}></img>
               </li>
                   <li className='nav-title' onClick={() => handleLinkClick('about')}>
                       About
                   </li>
                   <li className='nav-title' onClick={() => handleLinkClick('timetable')}>
-                      Calendar
+                      Timetable
                   </li>
                   <li className='nav-title' onClick={() => handleLinkClick('quotes')}>
-                      Quotes
+                  Testimonials
                   </li>
                   <li className='nav-title' onClick={() => handleLinkClick('contact')}>
                       Contact

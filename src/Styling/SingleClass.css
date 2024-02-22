@@ -1,0 +1,36 @@
+.projects-page {
+    width: 80%;
+    margin: 0 auto
+}
+
+.back-button{
+    font-size: 30px;
+    text-decoration: none;
+    color: #84123F;
+}
+
+.projects-container {
+    width: 80%
+}
+
+.banner-image{
+    width: 70%;
+    height: 80%;
+    margin-top: 20px
+}
+
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px
+}
+
+@media only screen and (max-width: 875px) {
+    .banner-image{
+        width: 100%;
+    }
+}
+
