@@ -15,7 +15,7 @@ export default function Quotes() {
                     <p className="quote-author">Millie</p>
                 </div>
                 <div className="quote-card">
-                    <p className="quote-text">"I had never done yoga before but Grace made it really accessible. I couldn't touch my toes at all before coming and now my flexibility has improved so much."</p>
+                    <p className="quote-text">"I'd never done yoga before but Grace made it really accessible and is a fantastic teacher. My flexibility has improved so much, I've made lots of progress and I feel great!."</p>
                     <p className="quote-author">Robbie</p>
                 </div>
             </div>

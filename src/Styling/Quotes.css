@@ -35,13 +35,13 @@
         width: 90%;
         margin: 0 auto;
         margin-top: 15px;
-        overflow-x: auto; 
     }
 
     .quotes-container {
         display: flex;
         flex-direction: row; 
         padding-bottom: 20px; 
+        overflow-x: auto; 
     }
 
     .quote-card {
