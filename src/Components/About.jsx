@@ -9,7 +9,7 @@ export default function About() {
 
     return (
         <>
-        <h2 className='about-header'>Yoga with Grace provides a friendly and relaxed space for anyone to experience the transformative power of yoga.</h2>
+        <h2 className='about-header'>Freedom encapsulates your experience in a class with Grace. Freedom to move, freedom to explore, freedom to create, freedom to be.</h2>
         <div className='header-grid'>
             <div></div>
             <div className='image-container'>
@@ -18,8 +18,15 @@ export default function About() {
             <div>
                 <div className='about-section'>
                     <h1>About Grace</h1>
-                    <p className='about-me-text'>Hi, I'm Grace - a Movement Medicine and Awakening Yoga Teacher, as well as a Mindfulness Facilitator. I have been teaching yoga for 5 years and provide high quality yoga practices to leave you feeling at ease.</p>
-                    <p className='about-me-text'>I offer both online and in-person classes to help you on your journey to wellness and mindfulness.</p>
+                    <p className='about-me-text'>Hi, I'm Grace. I trained as a dancer when I was younger, so movement for me has always been a
+                        treasured form of self expression. I like to bring a piece of that into my classes, a
+                        sense of purpose in movement and that powerful feeling of being part of something
+                        as a group when you're moving through the same dance but in different ways.</p>
+                    <p className='about-me-text'>I
+                        trained with Patrick Beach and Carling Harps in Awakening yoga which is a modern
+                        expression of yoga that is more accessible for all body types. All my classes have a
+                        mixture of old and new. There's a focus on self discovery, playfulness and trying new
+                        things, in a safe space where there is no wrong or right.</p>
                 </div>
             </div>
         </div>
