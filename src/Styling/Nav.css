@@ -16,7 +16,7 @@
     background-color: white;
     border-bottom: 0px solid black;
     display: grid;
-    grid-template-columns: 1.5fr 0.4fr 0.4fr 0.4fr 1fr 0.1fr 0.2fr;
+    grid-template-columns: 1.5fr 0.3fr 0.4fr 0.42fr 1fr 0.1fr 0.2fr;
     padding: 10px; 
     list-style: none; 
     align-items: center;
@@ -63,6 +63,40 @@
     row-gap: 0.5rem;
     text-align: center;
   }
+
+@media only screen and (max-width: 1120px) {
+  nav {
+    grid-template-columns: 1.6fr 0.4fr 0.5fr 0.6fr 1fr 0.1fr 0.2fr;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  nav {
+    grid-template-columns: 1.7fr 0.4fr 0.5fr 0.6fr 1fr 0.1fr 0.2fr;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  nav {
+    grid-template-columns: 1.8fr 0.4fr 0.5fr 0.6fr 1fr 0.1fr 0.2fr;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  nav {
+    grid-template-columns: 1.5fr 0.5fr 0.6fr 0.7fr 1fr 0.1fr 0.2fr;
+  }
+
+  .nav-logo{
+    height: 35px;
+    padding-left: 60px
+  }
+  
+  .insta-icon{
+    padding-right: 60px;
+    color: #84123F
+  }
+}
   
   @media only screen and (max-width: 768px) {
     .nav-title {
