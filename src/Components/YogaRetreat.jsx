@@ -44,14 +44,15 @@ export default function YogaRetreat() {
             &laquo;
           </Link>
         </div>
-        <h1 className='header-title'>Reset Retreat</h1>
+        
         <img className='header-image' src={RetreatMain} ></img>
+        <h1 className='header-title'>Reset Retreat</h1>
         <div className="text-section">
-          <p>
-            Take this
+          <p className='opening-text'>
+            ''Take this
             journey with me. Time to realign with our intentions for the new
             season ahead. A space to breathe, move, do less, do more,
-            experience and explore; with me as your guide.
+            experience and explore; with me as your guide.''
           </p>
         </div>
         

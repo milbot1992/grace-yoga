@@ -8,9 +8,13 @@
     font-size: 20px;
   }
 
-  .header-image{
+  .header-image {
     width: 100%;
-  }
+    margin-top: 20px;
+    height: 350px;
+    object-fit: cover; 
+}
+
   
   .carousel-container {
     margin-bottom: 50px;
@@ -62,10 +66,14 @@
   .text-section {
     background-color: #ffffff;
     border: 2px solid #fbb7b3; 
-    padding: 20px;
+    padding: 0 20px;
     margin-top: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  .opening-text{
+    text-decoration: italic;
   }
   
   .price-section {
@@ -108,8 +116,13 @@
   @media only screen and (max-width: 852px) {
   .slick-slide img {
     width: 100%;
-    height: 40vh;
+    height: 33vh;
     margin-bottom: 20px
+  }
+
+  .header-image{
+    width: 100%;
+    height: auto
   }
 
   .carousel-container {
