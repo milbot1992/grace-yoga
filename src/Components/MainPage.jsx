@@ -6,6 +6,7 @@ import Nav from './Nav'
 import '../Styling/Nav.css'
 import Nav2 from './Nav2'
 import Quotes from './Quotes'
+import RetreatSection from './RetreatSection'
 
 function MainPage() {
   return (
@@ -26,6 +27,7 @@ function MainPage() {
         <div id="quotes">
           <Quotes/>
         </div>
+        <RetreatSection/>
         <div id="contact">
           <Contact/>
         </div>

@@ -73,7 +73,7 @@ export default function Nav() {
                       Contact
                   </li>
               <li>
-                  <a className='insta-icon' href="https://www.instagram.com/saorsayoga_/?hl=en" target="_blank" rel="noopener noreferrer">
+                  <a className='insta-icon' href="https://www.instagram.com/grace.yoga__" target="_blank" rel="noopener noreferrer">
                       <InstagramIcon />
                   </a>
               </li>

@@ -7,7 +7,7 @@ export default function Contact() {
             <h3 className='contact-header'>Contact</h3>
             <div className='email-grid'>
                 <p className='email-text1'><EmailIcon/></p>
-                <p className='email-text2'>gracehouston44@hotmail.co.uk</p>
+                <p className='email-text2'>hello@graceyoga.co.uk</p>
             </div>
         </div>
     )

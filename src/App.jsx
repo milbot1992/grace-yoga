@@ -9,7 +9,7 @@ function App() {
     <>
       <div className = 'content-container'>
       <Routes>
-      <Route path="/" element={<MainPage />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/classes/:class_id" element={<SingleClass />} />
           <Route path="/retreat" element={<YogaRetreat />} />
         </Routes>

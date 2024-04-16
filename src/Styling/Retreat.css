@@ -9,7 +9,7 @@
   }
 
   .header-image{
-    width: 100%
+    width: 100%;
   }
   
   .carousel-container {
@@ -20,7 +20,7 @@
   
   .slick-slide img {
     width: 100%;
-    height: 70vh
+    height: 60vh
   }
 
   .slick-dots {
@@ -59,7 +59,8 @@
 }
   
   .text-section {
-    background-color: #fbb7b3;
+    background-color: #ffffff;
+    border: 2px solid #fbb7b3; 
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
@@ -87,6 +88,7 @@
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 40px;
+    border-radius: 10px;
   }
   
   .included-section h2 {
@@ -105,6 +107,24 @@
   @media only screen and (max-width: 852px) {
   .slick-slide img {
     width: 100%;
-    height: 40vh
+    height: 40vh;
+    margin-bottom: 10px
   }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .slick-prev {
+    left: 10px;
+    bottom: 10px
+}
+
+.slick-next {
+    right: 30px; 
+}
+
+.text-section {
+  padding: 0px 15px
+}
 }

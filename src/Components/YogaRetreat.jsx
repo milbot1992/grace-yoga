@@ -39,7 +39,7 @@ export default function YogaRetreat() {
             &laquo;
           </Link>
         </div>
-        <h1>Reset Retreat</h1>
+        <h1 className='header-title'>Reset Retreat</h1>
         <img className='header-image' src={RetreatMain} ></img>
         <div className="text-section">
           <p>
