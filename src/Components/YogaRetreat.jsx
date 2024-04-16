@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect} from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -12,6 +12,11 @@ import Retreat5 from '../assets/Retreat5.jpeg'
 import RetreatMain from '../assets/RetreatMain.jpeg'
 
 export default function YogaRetreat() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   const photoArray = [
     Retreat1,
     Retreat2,

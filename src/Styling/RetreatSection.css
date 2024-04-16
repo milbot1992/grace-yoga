@@ -1,4 +1,54 @@
-.retreat-section{
+.retreat-section {
+    background-color: #84123F;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.retreat-content {
     width: 80%;
-    margin: 0 auto
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.retreat-image {
+    width: 35%;
+    margin-right: 40px;
+    border: 10px solid #ffffff; 
+
+}
+
+.retreat-text{
+    color:white
+}
+
+.find-out-more-button {
+    padding: 5px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #84123F;
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .retreat-section {
+        flex-direction: column; 
+    }
+    .retreat-content {
+        flex-direction: column;
+    }
+    .retreat-image {
+        width: 90%; 
+        margin-right: 0px;
+    }
 }
