@@ -17,7 +17,7 @@ export default function MainImage() {
     return (
         <>
         <img src={Header} className='main-header'></img>
-        <p className='main-image-subtitle'>Manchester based Yoga Teacher specialising in breathwork and energy movement</p>
+        <p className='main-image-subtitle'>Feel the transformative power of Awakening Yoga</p>
         <p className='main-image-cal-button' onClick={() => handleLinkClick('timetable')}>See Timetable</p>
       </>
     )

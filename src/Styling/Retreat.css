@@ -1,0 +1,110 @@
+.projects-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .header-image{
+    width: 100%
+  }
+  
+  .carousel-container {
+    margin-bottom: 50px;
+    width: 80%;
+    margin: 0 auto
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: 70vh
+  }
+
+  .slick-dots {
+    bottom: 15px; 
+  }
+
+  .slick-prev,
+.slick-next {
+    font-size: 0; 
+    color: transparent; 
+    background-color: transparent; 
+    border: none; 
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 20px;
+    color: #fff; 
+    background-color: rgba(103, 99, 99, 0.5); 
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: -60px;
+    bottom: 10px
+}
+
+.slick-next {
+    right: -40px; 
+}
+  
+  .text-section {
+    background-color: #fbb7b3;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .price-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .price-section h2 {
+    color: #333;
+  }
+  
+  .price-section p {
+    color: #666;
+  }
+  
+  .included-section {
+    margin-top: 30px;
+    border: 2px solid #4a90e2; 
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .included-section h2 {
+    color: #4a90e2; 
+  }
+  
+  .included-section ul {
+    list-style-type: none; 
+    padding-left: 0; 
+  }
+  
+  .included-section li {
+    margin-bottom: 10px; 
+  }
+
+  @media only screen and (max-width: 852px) {
+  .slick-slide img {
+    width: 100%;
+    height: 40vh
+  }
+}

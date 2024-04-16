@@ -9,7 +9,13 @@ export default function About() {
 
     return (
         <>
-        <h2 className='about-header'>Freedom encapsulates your experience in a class with Grace. Freedom to move, freedom to explore, freedom to create, freedom to be.</h2>
+        <h2 className='about-header-1'>Grace trained as an Awakening Yoga teacher in 2021. All of her classes are inspired
+by the Awakening Yoga system from Patrick Beach and Carling Harps. Awakening
+yoga is a modern expression of yoga. More accessible to different body types and
+helping you to carve out space for exploration, mindfulness and fun! Grace’s classes
+are a blend of old and new, traditional and modern, with a focus on mobility and
+functional movement.</h2>
+        <h2 className='about-header-2'>Freedom encapsulates your experience in a class with Grace. Freedom to move, freedom to explore, freedom to create, freedom to be.</h2>
         <div className='header-grid'>
             <div></div>
             <div className='image-container'>
@@ -18,15 +24,12 @@ export default function About() {
             <div>
                 <div className='about-section'>
                     <h1>About Grace</h1>
-                    <p className='about-me-text'>Hi, I'm Grace. I trained as a dancer when I was younger, so movement for me has always been a
-                        treasured form of self expression. I like to bring a piece of that into my classes, a
-                        sense of purpose in movement and that powerful feeling of being part of something
-                        as a group when you're moving through the same dance but in different ways.</p>
-                    <p className='about-me-text'>I
-                        trained with Patrick Beach and Carling Harps in Awakening yoga which is a modern
-                        expression of yoga that is more accessible for all body types. All my classes have a
-                        mixture of old and new. There's a focus on self discovery, playfulness and trying new
-                        things, in a safe space where there is no wrong or right.</p>
+                    <p className='about-me-text'>I trained as a dancer when I was younger, so movement for me has always been a
+treasured form of self-expression. I like to bring a piece of that into my classes, a
+sense of purpose in movement and that powerful feeling of being part of something
+as a group when you&#39;re moving through the same dance but in different ways. In my
+classes we explore self-discovery, playfulness and trying new things, in a safe space
+where there is no right or wrong, just what feels good.</p>
                 </div>
             </div>
         </div>
