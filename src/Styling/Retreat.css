@@ -20,11 +20,12 @@
   
   .slick-slide img {
     width: 100%;
-    height: 60vh
+    height: 60vh;
+    margin-bottom: 20px
   }
 
   .slick-dots {
-    bottom: 15px; 
+    bottom: 0px; 
   }
 
   .slick-prev,
@@ -108,7 +109,7 @@
   .slick-slide img {
     width: 100%;
     height: 40vh;
-    margin-bottom: 10px
+    margin-bottom: 20px
   }
 
   .carousel-container {
@@ -122,6 +123,9 @@
 
 .slick-next {
     right: 30px; 
+}
+.slick-dots {
+  bottom: 0px; 
 }
 
 .text-section {
