@@ -7,7 +7,7 @@ export default function RetreatSection() {
     return (
         <div className='retreat-section'>
             <div className='retreat-content'>
-                <img src={RetreatMain} alt="Reset Retreat" className="retreat-image" />
+                <img src='https://almohalla51.com/wp-content/uploads/2022/04/Sanctuary.jpg' alt="Reset Retreat" className="retreat-image" />
                 <div className='retreat-text'>
                     <h1>Reset Retreat 2024</h1>
                     <p>Join me for a Reset Yoga Retreat in beautiful Archidona, Spain. This Yoga Retreat offers a blissful and relaxing 4-night getaway, where you'll immerse yourself in rejuvenating practices amidst the serene landscapes of southern Spain.</p>

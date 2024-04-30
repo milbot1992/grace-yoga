@@ -20,7 +20,8 @@
     width: 35%;
     margin-right: 40px;
     border: 10px solid #ffffff; 
-
+    filter: sepia(30%);
+    filter: brightness(120%) saturate(80%)
 }
 
 .retreat-text{

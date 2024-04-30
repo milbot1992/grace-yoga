@@ -45,8 +45,15 @@ export default function YogaRetreat() {
           </Link>
         </div>
         
-        <img className='header-image' src={RetreatMain} ></img>
-        <h1 className='header-title'>Reset Retreat</h1>
+        <div className="header-container">
+          <img className='header-image' src='https://almohalla51.com/wp-content/uploads/2022/04/Sanctuary.jpg' />
+          <div className='header-div'></div>
+          <div className='header-div'>
+          <h1 className='header-title'>~ RESET ~</h1>
+          <h1 className='header-title'>RETREAT</h1>
+          <h3 className='sub-title'>Andalusia -- September 2024</h3>
+          </div>
+        </div>
         <div className="text-section">
           <p className='opening-text'>
             ''Take this
@@ -59,7 +66,8 @@ export default function YogaRetreat() {
         
         <div>
             <h3>The Dates</h3>
-            <p>Thursday 19th - Monday 23rd September 4 Nights, 4 Days. </p>
+            <p>Thursday 19th - Monday 23rd September </p>
+            <p>4 Nights, 4 Days</p>
             <h3>The Accommodation</h3>
           <p>Almohalla 51</p>
           <p>C. Almohalla, 51, 29300 Archidona, Málaga, Spain</p>
@@ -88,13 +96,13 @@ export default function YogaRetreat() {
               local restaurants and bars. The hotel is perfectly located within easy reach of
               Antequera, Iznajar, Osuna and Comares; some spectacular and ancient towns
               waiting to be explored. Larger cities such as Granada, Cordoba, Sevilla and Ronda
-              are all 1-2hours away.
+              are all 1-2 hours away.
           </p>
           <h3>The Food</h3>
           <p>Breakfast and evening meals are served on the patio, or in cooler months, around
             the communal dining table. The emphasis is on good quality locally sourced
             ingredients and deliciously healthy homemade meals. The menu is created to work
-            around our yoga schedule and include Spanish and continental cuisine.
+            around our yoga schedule and includes Spanish and continental cuisine.
           </p>
           <h3>The Activities</h3>
           <p>In the day there will be options to be taken out to explore nearby ancient towns and
@@ -128,7 +136,7 @@ export default function YogaRetreat() {
           <p>- Shared room £550</p>
           <p>- Single room £650</p>
           <br></br>
-          <h3>STADARD PRICES</h3>
+          <h3>STANDARD PRICES</h3>
           <p>Standard prices come into effect if payment is made after 30th June 2024</p>
           <p>- Shared room £600</p>
           <p>- Single room £700</p>
