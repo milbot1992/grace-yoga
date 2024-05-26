@@ -47,7 +47,6 @@ export default function YogaRetreat() {
         
         <div className="header-container">
           <img className='header-image' src='https://almohalla51.com/wp-content/uploads/2022/04/Sanctuary.jpg' />
-          <div className='header-div'></div>
           <div className='header-div'>
           <h1 className='header-title'>~ RESET ~</h1>
           <h1 className='header-title'>RETREAT</h1>

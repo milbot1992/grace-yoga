@@ -33,6 +33,7 @@
   display: flex; 
   flex-direction: column; 
   align-items: center; 
+  width: 30vw
 }
 
 .header-title {
@@ -141,7 +142,7 @@
     margin-bottom: 10px; 
   }
 
-  @media only screen and (max-width: 852px) {
+@media only screen and (max-width: 852px) {
   .slick-slide img {
     width: 100%;
     height: 33vh;
@@ -171,5 +172,25 @@
 
 .text-section {
   padding: 0px 15px
+}
+.header-title {
+  margin: 0px 20px; 
+  font-size: 18px
+}
+
+.sub-title{
+  font-style: italic;
+  font-size: 15px
+}
+.header-div {
+  top: 45%;
+  width: 50vw;
+  padding: 10px
+}
+
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
 }
 }
